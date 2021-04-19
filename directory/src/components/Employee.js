@@ -11,7 +11,12 @@ class Employee extends React.Component {
     col: ""
   };
 
-  
+  render () {
+    return (
+      <>
+      </>
+    )
+  }
 };
 
 export default Employee;
