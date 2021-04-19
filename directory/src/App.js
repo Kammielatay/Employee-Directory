@@ -1,16 +1,15 @@
 import React from "react";
 import Header from "./components/Header";
-import Search from "./components/Search";
-import Users from "./components/Users";
-import UserCard from "./components/UserCard";
+import Search from "./components/SearchForm";
+//import Users from "./components/SearchResults";
+import Users from "./pages";
 
 function App() {
   return (
     <div>
       <Header />
-      <Search />
-      <Users />
-      <UserCard />
+    
+      
     </div>
   );
 }
