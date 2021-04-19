@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export default {
-  userDirectory: function () {
-    return axios.get("https://randomuser.me/api/?results=1");
-  }
-};
+function usersList() {
+  return axios.get("https://randomuser.me/api/?results=125&nat=US");
+}
+
+export default { usersList };
